@@ -7,6 +7,11 @@ body {
     background-color: #000000;
 }
 
+.calculator {
+    height: 100vw;
+    margin: auto;
+}
+
 .heading {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
@@ -18,6 +23,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50vh;
+    margin: auto;
+}
+
+@media screen and (max-height:843px) {
+    .center {
+        width: 100vh;
+    }
+
+}
+
+@media screen and (max-height:600px) {
+    .center {
+        width: 230vh;
+    }
 }
 
 #display {

@@ -12,50 +12,52 @@
 </head>
 
 <body>
-    <div class="heading">
-        <h1>Free online calculator</h1>
+    <div class="calculator">
+        <div class="heading center">
+            <h1>Free online calculator</h1>
+        </div>
+        <div>
+            <div class="center">
+                <textarea class="display" id="display" cols="30" rows="10" disabled></textarea>
+            </div>
+            <div class="hr-line"></div>
+            <div class="center">
+                <input type="text" id="result" class="result" disabled>
+            </div>
+            <div class="center">
+                <table>
+                    <tr>
+                        <td><button class="button square-button" style="background-color:#ff4901;">C</button></td>
+                        <td><button class="button square-button">/</button></td>
+                        <td><button class="button square-button">*</button></td>
+                        <td><button class="button square-button">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button square-button">7</button></td>
+                        <td><button class="button square-button">8</button></td>
+                        <td><button class="button square-button">9</button></td>
+                        <td rowspan="2"><button class="button rectangle-vertical-button">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button square-button">4</button></td>
+                        <td><button class="button square-button">5</button></td>
+                        <td><button class="button square-button">6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="button square-button">1</button></td>
+                        <td><button class="button square-button">2</button></td>
+                        <td><button class="button square-button">3</button></td>
+                        <td rowspan="2"><button class="button rectangle-vertical-button">=</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="button rectangle-horizontal-button">0</button></td>
+                        <td><button class="button square-button">.</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="script.js"></script>
     </div>
-    <div>
-        <div class="center">
-            <textarea class="display" id="display" cols="30" rows="10" disabled></textarea>
-        </div>
-        <div class="hr-line"></div>
-        <div class="center">
-            <input type="text" id="result" class="result" disabled>
-        </div>
-        <div class="center">
-            <table>
-                <tr>
-                    <td><button class="button square-button" style="background-color:#ff4901;">C</button></td>
-                    <td><button class="button square-button">/</button></td>
-                    <td><button class="button square-button">*</button></td>
-                    <td><button class="button square-button">-</button></td>
-                </tr>
-                <tr>
-                    <td><button class="button square-button">7</button></td>
-                    <td><button class="button square-button">8</button></td>
-                    <td><button class="button square-button">9</button></td>
-                    <td rowspan="2"><button class="button rectangle-vertical-button">+</button></td>
-                </tr>
-                <tr>
-                    <td><button class="button square-button">4</button></td>
-                    <td><button class="button square-button">5</button></td>
-                    <td><button class="button square-button">6</button></td>
-                </tr>
-                <tr>
-                    <td><button class="button square-button">1</button></td>
-                    <td><button class="button square-button">2</button></td>
-                    <td><button class="button square-button">3</button></td>
-                    <td rowspan="2"><button class="button rectangle-vertical-button">=</button></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><button class="button rectangle-horizontal-button">0</button></td>
-                    <td><button class="button square-button">.</button></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <script src="script.js"></script>
 </body>
 
 </html>
